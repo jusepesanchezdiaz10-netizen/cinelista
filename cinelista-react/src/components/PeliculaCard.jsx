@@ -4,15 +4,18 @@ function PeliculaCard({
   duracion,
   clasificacion,
   sinopsis,
-  horarios
+  horarios,
+  funcionHoy,
 }) {
   return (
     <div>
+      {funcionHoy && <h3>HOY</h3>}
+
       <h2>{titulo}</h2>
 
       <p>Genero: {genero}</p>
 
-      <p>Duracion: {duracion}</p>
+      <p>Duracion: {duracion} min</p>
 
       <p>Clasificacion: {clasificacion}</p>
 

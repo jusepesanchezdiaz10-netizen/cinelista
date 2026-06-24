@@ -1,0 +1,29 @@
+Etapa 1
+
+Prompt: como importar datos desde otro archivo
+Utilidad: util
+Cambios: corrigi la ruta del import
+
+Etapa 2
+
+Prompt: como crear un componente con props
+Utilidad: util
+Cambios: adapte el ejemplo a las peliculas
+
+Etapa 3
+
+Prompt: como usar map y key en react
+Utilidad: util
+Cambios: use el id de cada pelicula como key
+
+Etapa 4
+
+Prompt: como hacer filtros con useState
+Utilidad: util
+Cambios: adapte el filtro a TE +14 y +18
+
+Etapa 5
+
+Prompt: como mostrar elementos segun una condicion en react
+Utilidad: util
+Cambios: agregue el hoy y el contador

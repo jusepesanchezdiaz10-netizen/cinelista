@@ -12,6 +12,7 @@ function ListaPeliculas({ peliculas }) {
           clasificacion={pelicula.clasificacion}
           sinopsis={pelicula.sinopsis}
           horarios={pelicula.horarios}
+          funcionHoy={pelicula.funcionHoy}
         />
       ))}
     </div>

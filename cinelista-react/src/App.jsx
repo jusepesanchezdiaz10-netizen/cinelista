@@ -1,9 +1,12 @@
-import react from "react";
+import { peliculas } from "./data/peliculas";
+import ListaPeliculas from "./components/ListaPeliculas";
 
 function App() {
   return (
     <div>
-      console.log("Hello World");
+      <h1>CineLista</h1>
+
+      <ListaPeliculas peliculas={peliculas} />
     </div>
   );
 }
